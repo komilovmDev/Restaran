@@ -291,9 +291,11 @@ function App() {
         </div>
         <div className="brands">
           {
-            <div className="brand">
-              <img src="" alt="" />
-            </div>
+            brand.map(brends => (
+              <div className="brand">
+                <img src={brends.img} alt="" />
+              </div>
+            ))
           }
         </div>
       </main>
