@@ -135,26 +135,26 @@ function App() {
       name: "Special offers on",
       info: "Ice Cream!",
       btnText: "Discover",
-      img: muzqaymoq ,
+      img: muzqaymoq,
       bc: '#FFEFF3'
     },
     {
       name: "Free delivery",
       info: "from $20",
       btnText: "Shop now",
-      img: chochqa ,
+      img: chochqa,
       bc: '#EFF5FF'
     },
     {
       name: "-25% on bakery",
       info: "after 20:00",
       btnText: "See prices",
-      img: xurasan ,
+      img: xurasan,
       bc: '#FFF4EF'
     }
   ])
 
-  const [brand , setBrand] = useState([
+  const [brand, setBrand] = useState([
     {
       img: brend1
     },
@@ -275,7 +275,7 @@ function App() {
           <div className="shopCards">
             {
               shops.map(shop => (
-                <div className="shop" style={{background: shop.bc}}>
+                <div className="shop" style={{ background: shop.bc }}>
                   <div className="shopinfo">
                     <span className="shopName">{shop.name}</span>
                     <span className="shopInfo">{shop.info}</span>
@@ -290,9 +290,11 @@ function App() {
           </div>
         </div>
         <div className="brands">
-          <div className="brand">
-            <img src="" alt="" />
-          </div>
+          {
+            <div className="brand">
+              <img src="" alt="" />
+            </div>
+          }
         </div>
       </main>
     </div>
