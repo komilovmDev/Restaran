@@ -126,13 +126,13 @@ function App() {
     },
     {
       name: "Free delivery",
-      info: "Ice Cream!",
+      info: "from $20",
       btnText: "Discover",
       img: muzqaymoq
     },
     {
       name: "-25% on bakery",
-      info: "Ice Cream!",
+      info: "after 20:00",
       btnText: "Discover",
       img: muzqaymoq
     }
