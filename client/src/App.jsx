@@ -223,7 +223,7 @@ function App() {
           <div className="shopCards">
             {
               shops.map(shop => (
-                <div className="shop">
+                <div className="shop" style={{background: shop.bc}}>
                   <div className="shopinfo">
                     <span className="shopName">{shop.name}</span>
                     <span className="shopInfo">{shop.info}</span>
