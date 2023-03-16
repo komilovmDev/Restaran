@@ -314,6 +314,23 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="footerBootom">
+          <div className="footerBootomLeft">
+            <ul>
+              <li>For the restaurants</li>
+              <li>Press-centre</li>
+              <li>Career</li>
+            </ul>
+            <ul>
+              <li>For the customers</li>
+              <li>Discounts</li>
+              <li>Contact us</li>
+            </ul>
+          </div>
+          <div className="footerBootomRight">
+            <span>© 2022 «Komilov»</span>
+          </div>
+        </div>
       </footer>
     </div>
   );

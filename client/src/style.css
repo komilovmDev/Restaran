@@ -411,14 +411,102 @@ main {
 
 footer {
     width: 100%;
+    margin-top: 56px;
 }
 
 .footerTop {
     width: 100%;
     height: 75px;
     background-color: #eae8edb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footerTopMain {
-    
+    width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerTopLeft {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerTopLeft img {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.footerTopRight {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footerTopRight span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0C0C23;
+}
+
+.footerTopRight a button {
+    width: 40px;
+    height: 40px;
+    background-color: #d7d7d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.footerBootom {
+    width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 53px;
+}
+
+.footerBootomLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerBootomLeft ul {
+    display: flex;
+    gap: 63px;
+}
+
+.footerBootomLeft ul li {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ABAAAD;
+    cursor: pointer;
+}
+
+.footerBootomLeft ul li:hover {
+    color: #0C0C23;
+}
+
+.footerBootomRight  span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ABAAAD;
 }
