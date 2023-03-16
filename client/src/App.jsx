@@ -304,14 +304,14 @@ function App() {
       <footer>
         <div className="footerTop">
           <div className="footerTopMain">
-          <div className="footerTopLeft">
-            <img src={logo} alt="" />
-          </div>
-          <div className="footerTopRight">
-            <span>Follow us</span>
-            <a href=""><button><img src={facebook} alt="" /></button></a>
-            <a href=""><button><img src={twitter} alt="" /></button></a>
-          </div>
+            <div className="footerTopLeft">
+              <img src={logo} alt="" />
+            </div>
+            <div className="footerTopRight">
+              <span>Follow us</span>
+              <a href="#"><button><img src={facebook} alt="" /></button></a>
+              <a href="#"><button><img src={twitter} alt="" /></button></a>
+            </div>
           </div>
         </div>
       </footer>
