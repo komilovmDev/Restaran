@@ -410,5 +410,15 @@ main {
 }
 
 footer {
+    width: 100%;
+}
+
+.footerTop {
+    width: 100%;
+    height: 75px;
+    background-color: #eae8edb2;
+}
+
+.footerTopMain {
     
 }
