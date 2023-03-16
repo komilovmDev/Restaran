@@ -183,7 +183,7 @@ function App() {
                   <img src={product.img} alt="" />
                 </div>
                 <div className="productend">
-                  <span className='productName'>City Sandwiches And Coffee</span>
+                  <span className='productName'>{product.name}</span>
                   <div className="productInfos">
                     <button><img src={timeIcon} alt="" /><span>20-30m</span></button>
                     <button><img src={minishop} alt="" /><span>from $2</span></button>
