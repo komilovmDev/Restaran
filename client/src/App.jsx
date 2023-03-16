@@ -157,8 +157,8 @@ function App() {
             <div className="productend">
               <span className='productName'>City Sandwiches And Coffee</span>
               <div className="productInfo">
-                <button></button>
-                <button></button>
+                <button><img src={timeIcon} alt="" /><span>20-30m</span></button>
+                <button><img src={minishop} alt="" /><span>from $2</span></button>
               </div>
             </div>
           </div>
