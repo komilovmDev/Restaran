@@ -28,6 +28,8 @@ import logo from './media/logo.svg'
 import heaericon from './media/hearicon.svg'
 import timeIcon from './media/timeIcon.svg'
 import minishop from './media/minishop.svg'
+import facebook from './media/Facebook.svg'
+import twitter from './media/Twitter.svg'
 // style
 import './style.css'
 import { useState } from 'react'
@@ -300,7 +302,16 @@ function App() {
         </div>
       </main>
       <footer>
-        
+        <div className="footerTop">
+          <div className="footerTopLeft">
+            <img src={logo} alt="" />
+          </div>
+          <div className="footerTopRight">
+            <span>Follow us</span>
+            <a href=""><button><img src={facebook} alt="" /></button></a>
+            <a href=""><button><img src={twitter} alt="" /></button></a>
+          </div>
+        </div>
       </footer>
     </div>
   );
