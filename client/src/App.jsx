@@ -96,23 +96,23 @@ function App() {
       name: 'City Sandwiches And Coffee'
     },
     {
-      img: product1, 
+      img: product2, 
       name: 'City Sandwiches And Coffee'
     },
     {
-      img: product1, 
+      img: product3, 
       name: 'City Sandwiches And Coffee'
     },
     {
-      img: product1, 
+      img: product4, 
       name: 'City Sandwiches And Coffee'
     },
     {
-      img: product1, 
+      img: product5, 
       name: 'City Sandwiches And Coffee'
     },
     {
-      img: product1, 
+      img: product6, 
       name: 'City Sandwiches And Coffee'
     }
   ])
