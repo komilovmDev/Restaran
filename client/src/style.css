@@ -296,8 +296,9 @@ main {
     gap: 12px;
 }
 
-.products .product .productend .productInfos button{
+.products .product .productend .productInfos button {
     width: 98px;
     height: 32px;
     background: #FFEFF3;
+    cursor: pointer;
 }
