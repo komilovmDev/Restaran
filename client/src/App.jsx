@@ -224,7 +224,7 @@ function App() {
                   <div className="shopinfo">
                     <span className="shopName">{shop.name}</span>
                     <span className="shopInfo">{shop.info}</span>
-                    <button>Discover</button>
+                    <button>{shop.btnText}</button>
                   </div>
                   <div className="shopImg">
                     <img src={muzqaymoq} alt="" />
