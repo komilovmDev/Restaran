@@ -278,5 +278,16 @@ main {
 }
 
 .products .product .productend {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 12px;
+}
 
+.products .product .productend .productName {
+
+font-weight: 700;
+font-size: 20px;
+
+color: #0C0C23;
 }
