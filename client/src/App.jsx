@@ -199,7 +199,14 @@ function App() {
             <button><span>See all</span><img src={next} alt="" /></button>
           </div>
           <div className="shop">
-            
+            <div className="shopinfo">
+              <span className="shopName">Special offers on</span>
+              <span className="shopInfo">Ice Cream!</span>
+              <button>Discover</button>
+            </div>
+            <div className="shopImg">
+              <img src={muzqaymoq} alt="" />
+            </div>
           </div>
         </div>
       </main>
