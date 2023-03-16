@@ -25,6 +25,7 @@ import gifticon from './media/giftIcon.svg'
 import locationIcon from './media/locationIcon.svg'
 import next from './media/next.svg'
 import logo from './media/logo.svg'
+import heaericon
 // style
 import './style.css'
 import { useState } from 'react'
@@ -144,7 +145,7 @@ function App() {
         <div className="products">
           <div className="product">
             <div className="productHeader">
-              
+
             </div>
           </div>
         </div>
