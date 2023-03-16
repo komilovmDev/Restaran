@@ -117,7 +117,7 @@ function App() {
     }
   ])
 
-  const [shop , setShop] = useState([
+  const [shops, setShop] = useState([
     {
       name: "Special offers on",
       info: "Ice Cream!",
@@ -218,16 +218,20 @@ function App() {
             <button><span>See all</span><img src={next} alt="" /></button>
           </div>
           <div className="shopCards">
-            <div className="shop">
-              <div className="shopinfo">
-                <span className="shopName">Special offers on</span>
-                <span className="shopInfo">Ice Cream!</span>
-                <button>Discover</button>
-              </div>
-              <div className="shopImg">
-                <img src={muzqaymoq} alt="" />
-              </div>
-            </div>
+            {
+              shops.map(shop => (
+                <div className="shop">
+                  <div className="shopinfo">
+                    <span className="shopName">{shop.name}</span>
+                    <span className="shopInfo">Ice Cream!</span>
+                    <button>Discover</button>
+                  </div>
+                  <div className="shopImg">
+                    <img src={muzqaymoq} alt="" />
+                  </div>
+                </div>
+              ))
+            }
           </div>
         </div>
       </main>
