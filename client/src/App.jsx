@@ -198,6 +198,9 @@ function App() {
             <span>Restaurants</span>
             <button><span>See all</span><img src={next} alt="" /></button>
           </div>
+          <div className="shop">
+            
+          </div>
         </div>
       </main>
     </div>
