@@ -285,9 +285,7 @@ main {
 }
 
 .products .product .productend .productName {
-
-font-weight: 700;
-font-size: 20px;
-
-color: #0C0C23;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0C0C23;
 }
