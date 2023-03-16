@@ -152,8 +152,8 @@ function App() {
             <div className="productImg">
               <img src={product1} alt="" />
             </div>
-            <div className="producctend">
-              
+            <div className="productend">
+
             </div>
           </div>
         </div>
