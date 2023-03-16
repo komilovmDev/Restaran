@@ -154,7 +154,10 @@ function App() {
             </div>
             <div className="productend">
               <span className='productName'>City Sandwiches And Coffee</span>
-              
+              <div className="productInfo">
+                <button></button>
+                <button></button>
+              </div>
             </div>
           </div>
         </div>
