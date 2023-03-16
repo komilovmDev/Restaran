@@ -382,5 +382,11 @@ main {
 
 
 .shopImg {
-    
+    position: relative;
+}
+
+.shopImg img {
+    position: absolute;
+    right: -85px;
+    bottom: 0;
 }
