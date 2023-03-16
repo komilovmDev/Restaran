@@ -34,6 +34,7 @@ import { useState } from 'react'
 import { AiOutlineStar } from 'react-icons/ai'
 // bran images
 import brend1 from './media/brand1.png'
+import brend2 from './media/brand2.png'
 
 
 
