@@ -371,4 +371,8 @@ main {
     height: 40px;
     background: #0C0C23;
     border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
