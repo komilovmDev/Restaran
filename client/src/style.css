@@ -261,5 +261,12 @@ main {
 }
 
 .products .product .productHeader .productHear {
-
+    width: 40px;
+    height: 40px;
+    background: rgba(12, 12, 35, 0.4);
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
