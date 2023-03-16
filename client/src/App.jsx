@@ -237,6 +237,9 @@ function App() {
             }
           </div>
         </div>
+        <div className="brands">
+          
+        </div>
       </main>
     </div>
   );
