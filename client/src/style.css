@@ -226,6 +226,7 @@ main {
     margin-top: 56px;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .products .product {
