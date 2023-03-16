@@ -33,7 +33,7 @@ import './style.css'
 import { useState } from 'react'
 import { AiOutlineStar } from 'react-icons/ai'
 // bran images
-import brend1 from './media/brend1.png'
+import brend1 from './media/brand1.png'
 
 
 
