@@ -224,6 +224,8 @@ main {
     width: 1140px;
     margin: 0px auto;
     margin-top: 56px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .products .product {
