@@ -29,6 +29,7 @@ import heaericon from './media/hearicon.svg'
 // style
 import './style.css'
 import { useState } from 'react'
+import {AiOutlineStar} from 'react-icons/ai'
 
 
 
