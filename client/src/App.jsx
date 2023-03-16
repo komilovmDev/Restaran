@@ -31,88 +31,88 @@ import minishop from './media/minishop.svg'
 // style
 import './style.css'
 import { useState } from 'react'
-import {AiOutlineStar} from 'react-icons/ai'
+import { AiOutlineStar } from 'react-icons/ai'
 
 
 
 function App() {
 
-  const [headerinfos , setHeaderinfos] = useState([
+  const [headerinfos, setHeaderinfos] = useState([
     {
-      icon: gifticon ,
-      name: 'Up to -30% off ' ,
+      icon: gifticon,
+      name: 'Up to -30% off ',
       text: 'on selected meals'
     },
     {
-      icon: truckicon ,
-      name: 'Free delivery' ,
+      icon: truckicon,
+      name: 'Free delivery',
       text: 'on all orders from $20'
     },
     {
-      icon: shodark ,
-      name: 'Free takeaway' ,
+      icon: shodark,
+      name: 'Free takeaway',
       text: 'on any order'
     }
   ])
 
-  const [categores , setCategores] = useState([
+  const [categores, setCategores] = useState([
     {
-      img: categoryimg1 ,
+      img: categoryimg1,
       name: 'Lunch'
     },
     {
-      img: categoryimg2 ,
+      img: categoryimg2,
       name: 'Italian'
     },
     {
-      img: categoryimg3 ,
+      img: categoryimg3,
       name: 'Street food'
     },
     {
-      img: categoryimg4 ,
+      img: categoryimg4,
       name: 'Sushi'
     },
     {
-      img: categoryimg5 ,
+      img: categoryimg5,
       name: 'Asian'
     },
     {
-      img: categoryimg6 ,
+      img: categoryimg6,
       name: 'Vegetarian'
     },
     {
-      img: categoryimg6 ,
+      img: categoryimg6,
       name: 'Coffee & more'
     },
     {
-      img: categoryimg8 ,
+      img: categoryimg8,
       name: 'Homecooked'
     },
   ])
 
-  const [products , setProducts] = useState([
+  const [products, setProducts] = useState([
     {
-      img: product1, 
+      img: product1,
       name: 'City Sandwiches And Coffee'
     },
     {
-      img: product2, 
+      img: product2,
       name: 'Kochi Korean Food'
     },
     {
-      img: product3, 
+      img: product3,
       name: 'Easy Hummus Izraeli Streetfood'
     },
     {
-      img: product4, 
+      img: product4,
       name: 'Camorra Pizza & Birra'
     },
     {
-      img: product5, 
+      img: product5,
       name: 'Samir’s Original Turkish Kebab'
     },
     {
-      img: product6, 
+      img: product6,
       name: 'Granny’s Traditional Food'
     }
   ])
@@ -131,7 +131,7 @@ function App() {
           </ul>
           <div className="serach">
             <img src={serachIcon} alt="" />
-            <input type="text" placeholder='Search restorants, dishes or goods'/>
+            <input type="text" placeholder='Search restorants, dishes or goods' />
           </div>
           <div className="navBtns">
             <button><img src={shopicon} alt="" /></button>
@@ -139,20 +139,20 @@ function App() {
           </div>
         </div>
       </nav>
-      <header> 
-          {
-            headerinfos.map(headerinfo => (
-              <div className="headerinfo">
-                <div className="headerIcon">
-                   <img src={headerinfo.icon} alt="" />
-                </div>
-                <div className="texts">
-                  <span className='textName'>{headerinfo.name}</span>
-                  <span className='textText'>{headerinfo.text}</span>
-                </div>
+      <header>
+        {
+          headerinfos.map(headerinfo => (
+            <div className="headerinfo">
+              <div className="headerIcon">
+                <img src={headerinfo.icon} alt="" />
               </div>
-            ))
-          }
+              <div className="texts">
+                <span className='textName'>{headerinfo.name}</span>
+                <span className='textText'>{headerinfo.text}</span>
+              </div>
+            </div>
+          ))
+        }
       </header>
       <main>
         <div className="category">
@@ -173,24 +173,25 @@ function App() {
         </div>
         <div className="products">
           {
-            
-          }
-          <div className="product">
-            <div className="productHeader">
-              <button className='productStar'><AiOutlineStar/><span>5.0</span></button>
-              <button className='productHear'><img src={heaericon} alt="" /></button>
-            </div>
-            <div className="productImg">
-              <img src={product1} alt="" />
-            </div>
-            <div className="productend">
-              <span className='productName'>City Sandwiches And Coffee</span>
-              <div className="productInfos">
-                <button><img src={timeIcon} alt="" /><span>20-30m</span></button>
-                <button><img src={minishop} alt="" /><span>from $2</span></button>
+            products.map(product => (
+              <div className="product">
+                <div className="productHeader">
+                  <button className='productStar'><AiOutlineStar /><span>5.0</span></button>
+                  <button className='productHear'><img src={heaericon} alt="" /></button>
+                </div>
+                <div className="productImg">
+                  <img src={product1} alt="" />
+                </div>
+                <div className="productend">
+                  <span className='productName'>City Sandwiches And Coffee</span>
+                  <div className="productInfos">
+                    <button><img src={timeIcon} alt="" /><span>20-30m</span></button>
+                    <button><img src={minishop} alt="" /><span>from $2</span></button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            ))
+          }
         </div>
       </main>
     </div>
