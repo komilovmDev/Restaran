@@ -25,7 +25,7 @@ import gifticon from './media/giftIcon.svg'
 import locationIcon from './media/locationIcon.svg'
 import next from './media/next.svg'
 import logo from './media/logo.svg'
-import heaericon
+import heaericon from './media/hearicon.svg'
 // style
 import './style.css'
 import { useState } from 'react'
