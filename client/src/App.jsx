@@ -172,6 +172,9 @@ function App() {
           </div>
         </div>
         <div className="products">
+          {
+            
+          }
           <div className="product">
             <div className="productHeader">
               <button className='productStar'><AiOutlineStar/><span>5.0</span></button>
