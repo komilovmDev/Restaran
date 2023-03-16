@@ -146,8 +146,8 @@ function App() {
         <div className="products">
           <div className="product">
             <div className="productHeader">
-              <button><AiOutlineStar/><span>5.0</span></button>
-              <button><img src={heaericon} alt="" /></button>
+              <button className='productStar'><AiOutlineStar/><span>5.0</span></button>
+              <button className='productHear'><img src={heaericon} alt="" /></button>
             </div>
           </div>
         </div>
