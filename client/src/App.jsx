@@ -193,6 +193,9 @@ function App() {
             ))
           }
         </div>
+        <div className="shops">
+          
+        </div>
       </main>
     </div>
   );
