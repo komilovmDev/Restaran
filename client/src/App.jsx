@@ -32,6 +32,8 @@ import minishop from './media/minishop.svg'
 import './style.css'
 import { useState } from 'react'
 import { AiOutlineStar } from 'react-icons/ai'
+// bran images
+import brend1 from './media/brend1.png'
 
 
 
@@ -238,7 +240,9 @@ function App() {
           </div>
         </div>
         <div className="brands">
-          
+          <div className="brand">
+            <img src="" alt="" />
+          </div>
         </div>
       </main>
     </div>
