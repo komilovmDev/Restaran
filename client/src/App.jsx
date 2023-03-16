@@ -37,6 +37,7 @@ import brend1 from './media/brand1.png'
 import brend2 from './media/brand2.png'
 import brend3 from './media/brand3.png'
 import brend4 from './media/brand4.png'
+import brend5 from './media/brand5.png'
 
 
 
