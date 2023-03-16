@@ -119,7 +119,22 @@ function App() {
 
   const [shop , setShop] = useState([
     {
-      
+      name: "Special offers on",
+      info: "Ice Cream!",
+      btnText: "Discover",
+      img: muzqaymoq
+    },
+    {
+      name: "Free delivery",
+      info: "Ice Cream!",
+      btnText: "Discover",
+      img: muzqaymoq
+    },
+    {
+      name: "-25% on bakery",
+      info: "Ice Cream!",
+      btnText: "Discover",
+      img: muzqaymoq
     }
   ])
 
