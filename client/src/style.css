@@ -219,3 +219,16 @@ main {
     font-size: 24px;
     color: #FFFFFF;
 }
+
+.products {
+    width: 1140px;
+    margin: 0px auto;
+    margin-top: 56px;
+}
+
+.products .product {
+    width: 360px;
+    height: 335px;
+    border: 1px solid #EAE8ED;
+    border-radius: 12px;
+}
