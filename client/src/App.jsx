@@ -127,13 +127,13 @@ function App() {
     {
       name: "Free delivery",
       info: "from $20",
-      btnText: "Discover",
+      btnText: "Shop now",
       img: muzqaymoq
     },
     {
       name: "-25% on bakery",
       info: "after 20:00",
-      btnText: "Discover",
+      btnText: "See prices",
       img: muzqaymoq
     }
   ])
