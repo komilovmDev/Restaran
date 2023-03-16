@@ -223,7 +223,7 @@ function App() {
                 <div className="shop">
                   <div className="shopinfo">
                     <span className="shopName">{shop.name}</span>
-                    <span className="shopInfo">Ice Cream!</span>
+                    <span className="shopInfo">{shop.info}</span>
                     <button>Discover</button>
                   </div>
                   <div className="shopImg">
