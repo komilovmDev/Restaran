@@ -154,6 +154,45 @@ function App() {
     }
   ])
 
+  const [brand , setBrand] = useState([
+    {
+      img: brend1
+    },
+    {
+      img: brend2
+    },
+    {
+      img: brend3
+    },
+    {
+      img: brend4
+    },
+    {
+      img: brend5
+    },
+    {
+      img: brend6
+    },
+    {
+      img: brend7
+    },
+    {
+      img: brend8
+    },
+    {
+      img: brend9
+    },
+    {
+      img: brend10
+    },
+    {
+      img: brend11
+    },
+    {
+      img: brend12
+    }
+  ])
+
   return (
     <div className="container">
       <nav>
