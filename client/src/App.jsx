@@ -122,19 +122,22 @@ function App() {
       name: "Special offers on",
       info: "Ice Cream!",
       btnText: "Discover",
-      img: muzqaymoq
+      img: muzqaymoq ,
+      bc: '#FFEFF3'
     },
     {
       name: "Free delivery",
       info: "from $20",
       btnText: "Shop now",
-      img: chochqa
+      img: chochqa ,
+      bc: '#EFF5FF'
     },
     {
       name: "-25% on bakery",
       info: "after 20:00",
       btnText: "See prices",
-      img: xurasan
+      img: xurasan ,
+      bc: '#FFF4EF'
     }
   ])
 
