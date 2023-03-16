@@ -291,5 +291,7 @@ main {
 }
 
 .products .product .productend .productInfos {
-
+    width: 98px;
+    height: 32px;
+    background: #FFEFF3;
 }
