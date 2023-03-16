@@ -291,7 +291,9 @@ main {
 }
 
 .products .product .productend .productInfos {
-    
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .products .product .productend .productInfos button{
