@@ -331,9 +331,9 @@ main {
 
 .shopCards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 31px;
+    gap: 30px;
 }
 
 .shop {
