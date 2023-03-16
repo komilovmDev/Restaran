@@ -142,7 +142,11 @@ function App() {
           </div>
         </div>
         <div className="products">
-          
+          <div className="product">
+            <div className="productHeader">
+              
+            </div>
+          </div>
         </div>
       </main>
     </div>
