@@ -272,7 +272,11 @@ main {
     cursor: pointer;
 }
 
-.productImg img {
+.products .product .productImg img {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+}
+
+.products .product .productend {
+
 }
