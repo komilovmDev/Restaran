@@ -88,7 +88,33 @@ function App() {
       img: categoryimg8 ,
       name: 'Homecooked'
     },
+  ])
 
+  const [products , setProducts] = useState([
+    {
+      img: product1, 
+      name: 'City Sandwiches And Coffee'
+    },
+    {
+      img: product1, 
+      name: 'City Sandwiches And Coffee'
+    },
+    {
+      img: product1, 
+      name: 'City Sandwiches And Coffee'
+    },
+    {
+      img: product1, 
+      name: 'City Sandwiches And Coffee'
+    },
+    {
+      img: product1, 
+      name: 'City Sandwiches And Coffee'
+    },
+    {
+      img: product1, 
+      name: 'City Sandwiches And Coffee'
+    }
   ])
 
 
