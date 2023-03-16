@@ -227,7 +227,7 @@ function App() {
                     <button>{shop.btnText}</button>
                   </div>
                   <div className="shopImg">
-                    <img src={muzqaymoq} alt="" />
+                    <img src={shop.img} alt="" />
                   </div>
                 </div>
               ))
