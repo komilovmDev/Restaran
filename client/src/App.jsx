@@ -26,6 +26,7 @@ import locationIcon from './media/locationIcon.svg'
 import next from './media/next.svg'
 import logo from './media/logo.svg'
 import heaericon from './media/hearicon.svg'
+import timeIcon from './media/timeIcon.svg'
 // style
 import './style.css'
 import { useState } from 'react'
