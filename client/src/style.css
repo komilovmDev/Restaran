@@ -291,6 +291,10 @@ main {
 }
 
 .products .product .productend .productInfos {
+    
+}
+
+.products .product .productend .productInfos button{
     width: 98px;
     height: 32px;
     background: #FFEFF3;
