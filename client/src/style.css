@@ -303,4 +303,8 @@ main {
     cursor: pointer;
     border-radius: 6px;
     border:  none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
