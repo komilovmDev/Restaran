@@ -345,5 +345,12 @@ main {
 }
 
 .shopinfo {
-    
+    padding: 41px 32px;
+}
+
+.shopName {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0C0C23;
 }
