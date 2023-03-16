@@ -330,5 +330,16 @@ main {
 }
 
 .shopCards {
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 31px;
+}
+
+.shop {
+    width: 360px;
+    height: 225px;
+    background: #FFEFF3;
+    border-radius: 12px;
+    display: flex;
 }
