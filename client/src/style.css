@@ -302,9 +302,17 @@ main {
     background: #FFEFF3;
     cursor: pointer;
     border-radius: 6px;
-    border:  none;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+.products .product .productend .productInfos button span {
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #0C0C23;
 }
