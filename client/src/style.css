@@ -245,5 +245,17 @@ main {
 }
 
 .products .product .productHeader .productStar {
-    
+    width: 68px;
+    height: 32px;
+    background-color: #0C0C23;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    gap: 5px;
 }
