@@ -146,7 +146,7 @@ function App() {
         <div className="products">
           <div className="product">
             <div className="productHeader">
-
+              
             </div>
           </div>
         </div>
