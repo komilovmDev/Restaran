@@ -301,4 +301,5 @@ main {
     height: 32px;
     background: #FFEFF3;
     cursor: pointer;
+    border-radius: 6px;
 }
