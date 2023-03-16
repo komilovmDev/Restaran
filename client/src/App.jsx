@@ -194,7 +194,10 @@ function App() {
           }
         </div>
         <div className="shops">
-          
+          <div className="categoryHeader">
+            <span>Restaurants</span>
+            <button><span>See all</span><img src={next} alt="" /></button>
+          </div>
         </div>
       </main>
     </div>
