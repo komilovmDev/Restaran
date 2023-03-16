@@ -299,6 +299,9 @@ function App() {
           }
         </div>
       </main>
+      <footer>
+        
+      </footer>
     </div>
   );
 }
