@@ -97,23 +97,23 @@ function App() {
     },
     {
       img: product2, 
-      name: 'City Sandwiches And Coffee'
+      name: 'Kochi Korean Food'
     },
     {
       img: product3, 
-      name: 'City Sandwiches And Coffee'
+      name: 'Easy Hummus Izraeli Streetfood'
     },
     {
       img: product4, 
-      name: 'City Sandwiches And Coffee'
+      name: 'Camorra Pizza & Birra'
     },
     {
       img: product5, 
-      name: 'City Sandwiches And Coffee'
+      name: 'Samir’s Original Turkish Kebab'
     },
     {
       img: product6, 
-      name: 'City Sandwiches And Coffee'
+      name: 'Granny’s Traditional Food'
     }
   ])
 
